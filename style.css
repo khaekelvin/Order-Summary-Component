@@ -112,3 +112,46 @@ button {
     font-weight: bold;
     font-size: medium;
 }
+
+@media only screen and (max-width: 375px) {
+    .img1 {
+    width: 328px;
+    height: 165px;
+    border-radius: 20px 20px 0 0;
+    }
+
+    .all {
+        width: 328px;
+        height: 450px;
+        background-color: white;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .square {
+        display: flex;
+        flex-direction: row;
+        height: 102px;
+        width: 285px;
+        background-color: #F8F9FE;
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    .change{
+    padding-left: 20px;
+    padding-top: 43px;
+    text-decoration: underline;
+    color: #382AE1;
+    }
+
+    button {
+    width: 300px;
+    height: 53px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #382AE1;
+    color: white;
+    border-color: #382AE1;
+    box-shadow: 2px 3px #a7a7a7;
+    }
+}
