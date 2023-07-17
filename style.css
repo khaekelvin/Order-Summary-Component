@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E0E8FF;
+}
+
+.container {
+    width: 452px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+.all{
+    width: 452px;
+    height: 450px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.order {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.textb {
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    line-height: 25px;
+    opacity: 60%;
+}
+
+.square {
+    display: flex;
+    flex-direction: row;
+    height: 102px;
+    width: 353px;
+    background-color: #F8F9FE;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.annual {
+    margin-left: 10px;
+    padding-top: 28px;
+    font-weight: bold;
+}
+
+.year {
+    margin: 10px;
+    
+}
+
+.change {
+    padding-left: 90px;
+    padding-top: 43px;
+    text-decoration: underline;
+    color: #382AE1;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 353px;
+    height: 53px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #382AE1;
+    color: white;
+    border-color: #382AE1;
+    box-shadow: 2px 3px #a7a7a7;
+}
+
+.last {
+    text-align: center;
+}
+
+.img1 {
+    width: 452px;
+    height: 220px;
+    border-radius: 20px 20px 0 0;
+}
+
+.img2 {
+    width: 70px;
+    height: 75px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.cancel {
+    padding-top: 30px;
+    font-weight: bold;
+    opacity: 50%;
+}
+
+.pay {
+    font-weight: bold;
+    font-size: medium;
+}
