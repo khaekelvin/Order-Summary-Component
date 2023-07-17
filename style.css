@@ -18,6 +18,11 @@ body {
     height: 100vh;
 }
 
+article{
+    display: flex;
+    flex-direction: column;
+}
+
 .all{
     width: 452px;
     height: 450px;
