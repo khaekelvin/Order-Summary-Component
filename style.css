@@ -10,14 +10,12 @@ body {
 }
 
 .container {
-    width: 452px;
     display: flex;
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-left: 1000px;
 }
 
 .all{
