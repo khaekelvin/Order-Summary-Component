@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --main-hover-color: #766cf1;
   --cancel-hover-color: #2a2d3a;
@@ -168,10 +169,8 @@ button {
     color: var(--background-color);
     border-color: var(--change-link-color);
     box-shadow: 2px 3px var(--box-shadow);
-
     padding-left: 20px;
     padding-top: 43px;
-    text-decoration: underline;
     color: var(--change-link-color);
   }
 
@@ -197,7 +196,6 @@ button {
     box-shadow: 2px 3px var(--box-shadow);
     padding-left: 20px;
     padding-top: 43px;
-    text-decoration: underline;
     color: var(--change-link-color);
   }
 
@@ -210,12 +208,18 @@ button {
     color: var(--background-color);
     border-color: var(--change-link-color);
     box-shadow: 2px 3px var(--box-shadow);
+  }
+
+  .pay {
+    padding-top: 1px;
+    padding-right: 15px;
   }
 }
 
 .change:hover {
   cursor: pointer;
   color: var(--main-hover-color);
+  text-decoration: none;
 }
 
 .cancel:hover {
