@@ -11,7 +11,7 @@ This repository contains the code for converting a Figma sign up design into a w
 ### Challenge
 My challenge is to build out this order summary card component and get it looking as close to the design as possible.
 
-## Figma Design
+## Figma design
 ### Desktop design
 ![Screenshot 2023-figma18 104316](https://github.com/khaekelvin/Order-Summary-Component/assets/130221570/4187d535-aa6a-4a6b-a548-70d4c20fab48)
 
